@@ -13,7 +13,7 @@ public class Conta {
 		this.numero = numero;
 		this.saldo = 100;
 		this.titular = titular;
-		System.out.println("Estou criando uma conta" + this.numero);
+		System.out.println("Estou criando uma conta " + this.numero);
 	}
 
 	public void deposita(double valor) {
